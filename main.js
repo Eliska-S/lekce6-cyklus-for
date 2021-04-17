@@ -5,8 +5,11 @@
 // První příklad - vypiš vzestupně čísla od 0 do 10
 console.log('Prvni příklad - vypiš čísla od 0 do 10')
 
-for (i = 0; i <= 10; i++) {
+let i = 0;
+
+while (i <= 10) {
     console.log(i);
+    i++;
 }
 
 console.log('-------------------');
@@ -17,8 +20,11 @@ console.log('-------------------');
 
 console.log('Druhý příklad - rozdíl mezi <= a <. Níže uvedené je za využití <.');
 
-for (i = 0; i < 10; i++) {
+i = 0;
+
+while (i < 11) {
     console.log(i);
+    i++;
 }
 
 console.log('-------------------');
@@ -28,8 +34,17 @@ console.log('-------------------');
 // Třetí příklad - vypiš sestupně čísla od 10 do 0
 console.log('Třetí příklad - sestupná řada 10 - 0');
 
-for (i = 10; i >= 0; i--) {
+/** for (i = 10; i >= 0; i--) {
     console.log(i);
+}
+
+*/
+
+i = 10;
+
+while (i >= 0) {
+    console.log(i);
+    i--;
 }
 
 console.log('-------------------');
